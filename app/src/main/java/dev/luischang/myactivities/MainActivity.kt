@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.i(tag, "MainActivity ---> onCreate" )
+        Log.i(tag, "Hola..." )
     }
     override fun onStart() {
         super.onStart()
